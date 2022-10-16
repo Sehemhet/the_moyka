@@ -1,0 +1,113 @@
+body {
+  background-image: url("../image/The_moyka.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0px 0px 0px 0px;
+
+  font-family: "Ubuntu";
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 500;
+  display: block;
+  background-color: rgba(245, 222, 179, 0.5);
+
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  color: #DEB887
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  width: 10em;
+}
+
+.head1 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 95vw;
+  margin: 0 auto;
+}
+
+.navigation {
+  margin-top: 20px;
+  height: 51px;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.logo {
+  height: inherit;
+  display: flex;
+  float: left;
+}
+
+.logo_img {
+  position: relative;
+}
+
+.logo_txt {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  color: #fff;
+  float: left;
+}
+
+.language {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.sep {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.right_head {
+  display: flex;
+  justify-content: flex-end;
+  height: inherit;
+}
+
+.phone {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 21px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.small {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
